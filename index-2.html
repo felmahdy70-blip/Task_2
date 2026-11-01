@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>دراسة شاملة حول النظم الذكية وتحليل البيانات</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap');
+:root{--navy:#09234f;--blue:#1764c0;--cyan:#18b9dc;--ink:#172b4d;--muted:#5b6d87;--line:#dce8f7;--pale:#f2f7ff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f4f7fc;color:var(--ink);font-family:'Cairo',Tahoma,Arial,sans-serif;line-height:1.9}
+.topbar{background:var(--navy);color:white;position:sticky;top:0;z-index:10;box-shadow:0 5px 18px #0002}
+.nav{max-width:1100px;margin:auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;gap:15px}.brand{font-weight:800;direction:ltr;white-space:nowrap}
+.navlinks{display:flex;gap:16px;flex-wrap:wrap}.navlinks a{color:#eaf3ff;text-decoration:none;font-size:.9rem}.navlinks a:hover{color:#5ce4ff}
+.wrap{width:min(1080px,92%);margin:26px auto 50px}.hero{overflow:hidden;border-radius:23px;background:linear-gradient(125deg,#071d43,#0d4b91 65%,#087eae);color:white;box-shadow:0 14px 35px #0d366e17}
+.hero-copy{text-align:center;padding:30px 25px 15px}.eyebrow{color:#72e8ff;font-weight:700}h1{font-size:clamp(1.7rem,4vw,2.7rem);line-height:1.5;margin:8px 0}.hero p{color:#d9ecff;margin:4px 0 15px}
+.hero-img{display:block;width:100%;height:auto;max-height:440px;object-fit:cover}.student{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;padding:13px;background:#02123073;color:#e7f5ff;font-weight:700;direction:ltr}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:19px 0}.stat{background:white;border:1px solid var(--line);border-radius:16px;padding:15px;text-align:center;box-shadow:0 14px 35px #0d366e0e}.stat strong{display:block;color:var(--blue);font-size:1.8rem;direction:ltr}.stat span{color:var(--muted);font-size:.92rem}
+.section{background:white;border:1px solid var(--line);border-radius:19px;padding:23px 26px;margin:17px 0;box-shadow:0 14px 35px #0d366e0e;scroll-margin-top:85px}
+.section h2{color:var(--navy);font-size:1.3rem;margin:0 0 12px}.section h2:before{content:"";display:inline-block;width:7px;height:24px;background:var(--cyan);border-radius:5px;margin-left:10px;vertical-align:middle}
+.section h3{color:var(--blue);margin:18px 0 5px;font-size:1.03rem}p{margin:8px 0 12px}.table-wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:610px;margin-top:13px}th,td{border:1px solid #d7e3f2;padding:10px;text-align:center}th{background:var(--navy);color:white}tr:nth-child(even) td{background:#f5f9ff}
+.result-grid,.components{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:14px}.result,.component{background:var(--pale);border:1px solid var(--line);border-radius:13px;padding:15px}.result b{display:block;color:var(--blue);font-size:1.2rem}.component{background:#fbfdff}.component h3{margin:0 0 5px}
+.timeline{border-right:3px solid #b9d7fa;padding-right:20px}.step{position:relative;margin:15px 0}.step:before{content:"";position:absolute;right:-27px;top:10px;width:11px;height:11px;background:var(--cyan);border:3px solid white;border-radius:50%;box-shadow:0 0 0 2px #b9d7fa}.step b{color:var(--blue)}
+ul{padding-right:22px}li{padding:3px 0}.footer{text-align:center;color:#d9eaff;background:var(--navy);border-radius:17px;padding:20px;margin-top:20px}.footer small{display:block;color:#9db8d9;margin-top:5px}
+@media(max-width:700px){.nav{align-items:flex-start;flex-direction:column}.navlinks{gap:9px 13px}.hero-copy{padding:22px 15px 12px}.stats{grid-template-columns:1fr;gap:9px}.section{padding:19px 16px}.result-grid,.components{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="topbar"><nav class="nav" aria-label="القائمة الرئيسية">
+<div class="brand">Fady El Mahdy | 2501337</div>
+<div class="navlinks"><a href="#intro">المقدمة</a><a href="#indicators">المؤشرات</a><a href="#results">النتائج</a><a href="#model">النموذج</a><a href="#references">المراجع</a></div>
+</nav></header>
+<main class="wrap">
+<section class="hero">
+<div class="hero-copy"><div class="eyebrow">تقرير البحث والأداء الأكاديمي</div><h1>دراسة شاملة حول النظم الذكية وتحليل البيانات</h1><p>معرفة أعمق .. قرارات أذكى .. مستقبل أفضل</p></div>
+<img class="hero-img" src="ai-data-analysis.png" alt="تصميم توضيحي عن الذكاء الاصطناعي وتحليل البيانات والنظم الذكية">
+<div class="student"><span>Fady El Mahdy</span><span>Student ID: 2501337</span><span>October 2026</span></div>
+</section>
+<section class="stats" aria-label="أهم مؤشرات البحث">
+<div class="stat"><strong>38%</strong><span>تحسين كفاءة المعالجة</span></div><div class="stat"><strong>+1,250</strong><span>عينة بيانات معالجة</span></div><div class="stat"><strong>94.8%</strong><span>دقة النماذج التحليلية</span></div>
+</section>
+<section class="section" id="intro"><h2>1. المقدمة والهدف من البحث</h2>
+<p>تهدف هذه الدراسة البحثية إلى تقديم تحليل شامل للتطورات الحديثة في مجالات الذكاء الاصطناعي وتحليل البيانات الضخمة. ويسعى البحث إلى تقييم مدى كفاءة النظم الذكية في تحسين الأداء التشغيلي واتخاذ القرارات المبنية على المعرفة.</p>
+<p>تركز هذه الورقة على إبراز <strong>المفاهيم الأساسية والأطر النظرية</strong> التي تحكم تطبيق هذه التكنولوجيات في القطاعات الحديثة، مع تقديم نماذج عملية لقياس مستوى الأداء والتحول الرقمي.</p></section>
+<section class="section" id="indicators"><h2>2. مؤشرات الكفاءة والبيانات الأولية</h2>
+<p>تم جمع المخرجات الأولية وتقسيمها عبر أربع مراحل رئيسية لضمان أعلى مستويات الدقة والموثوقية. ويوضح الجدول التالي مقارنة بين المخرجات المخطط لها والمحققة خلال الفترة الزمنية للبحث:</p>
+<div class="table-wrap"><table><thead><tr><th>المرحلة البحثية</th><th>الهدف المخطط</th><th>النتيجة المحققة</th><th>نسبة الإنجاز</th></tr></thead><tbody>
+<tr><td>جمع البيانات وتصنيفها</td><td>1,000 سجل</td><td>1,250 سجل</td><td>125%</td></tr><tr><td>تطوير الخوارزميات</td><td>5 نماذج</td><td>5 نماذج</td><td>100%</td></tr><tr><td>اختبار النظام والتحقق</td><td>90% دقة</td><td>94.8% دقة</td><td>105%</td></tr><tr><td>صياغة التوصيات والتقرير</td><td>وثيقة كاملة</td><td>قيد المراجعة</td><td>90%</td></tr>
+</tbody></table></div></section>
+<section class="section" id="results"><h2>3. التحليل الميداني والنتائج البيانية</h2>
+<p>من خلال تحليل سياق البيانات واستخدام النماذج الرياضية الحديثة، أظهرت النتائج استقرارًا ملحوظًا في أداء الخوارزميات عبر مختلف بيئات الاختبار. وتم بناء مخطط متقدم لتقييم معدل نمو الأداء مقارنة مع الأنظمة التقليدية.</p>
+<h3>مقارنة معدل كفاءة المعالجة الزمانية (الأنظمة الحديثة مقابل التقليدية)</h3><p>أُجريت المقارنة عبر خمسة اختبارات مختلفة، وأظهرت النتائج تفوق النظام المقترح في سرعة المعالجة.</p>
+<div class="result-grid"><div class="result"><b>2.5 مرة</b>سرعة أعلى للنظام المقترح مقارنة بالأنظمة التقليدية.</div><div class="result"><b>≤ 0.2%</b>معدل الأخطاء في البيئات ذات الضغط العالي، وفقًا لما ورد في التقرير.</div></div></section>
+<section class="section" id="model"><h2>4. مناقشة النموذج التطبيقي</h2>
+<p>تتطلب عملية التطبيق الفعلي الالتزام ببروتوكولات صارمة لضمان سلامة البيانات ومعالجتها بشكل آمن. واستنادًا إلى التجارب المعملية، يتبين أن توزيع الموارد الحوسبية بشكل ديناميكي يقلل من الفاقد في زمن المعالجة بنسبة تصل إلى <strong>30%</strong>.</p>
+<p>ويستعرض الجزء التالي المكونات الهيكلية الرئيسية للنموذج المقترح لتوسيع نطاق العمليات.</p>
+<h2>5. أركان النظام والحلول الهندسية</h2><p>يتكون الإطار التنفيذي للمشروع من أربعة محاور أساسية تتكامل فيما بينها لتوفير بيئة عمل متماسكة وقابلة للتطوير. وقد تم تصميم كل مكون ليلبي متطلبات الأداء المرتفع:</p>
+<div class="components">
+<div class="component"><h3>أ. وحدة استرجاع البيانات</h3><p>تتولى جلب البيانات من المصادر المختلفة وتنظيفها تلقائيًا مع حذف القيم المفقودة.</p></div>
+<div class="component"><h3>ب. المحرك التحليلي</h3><p>يعتمد على خوارزميات التعلم العميق للتعرف على الأنماط والتنبؤ بالمخرجات.</p></div>
+<div class="component"><h3>ج. جدار الحماية والخصوصية</h3><p>تشفير البيانات أثناء التخزين والنقل باستخدام معايير <strong>AES-256</strong> القياسية.</p></div>
+<div class="component"><h3>د. واجهة العرض التفاعلية</h3><p>توفير لوحات قياسية للمستخدمين لعرض المؤشرات والتقارير في الوقت الفعلي.</p></div>
+</div></section>
+<section class="section" id="plan"><h2>6. الخطة الزمنية والتنفيذ</h2><p>يتطلب تنفيذ النموذج الالتزام بالجدول الزمني المحدد والمقسم على المراحل الحيوية التالية:</p>
+<div class="timeline">
+<div class="step"><b>المرحلة الأولى: الدراسات الأولية والتصميم (الشهر 1–2)</b><br>تحديد متطلبات النظام وبناء المخططات الهندسية المبدئية.</div>
+<div class="step"><b>المرحلة الثانية: التطوير والتكامل (الشهر 3–4)</b><br>برمجة المكونات الرئيسية وربط قواعد البيانات ومحركات الذكاء الاصطناعي.</div>
+<div class="step"><b>المرحلة الثالثة: التقييم والاعتماد (الشهر 5–6)</b><br>إجراء الاختبارات التشغيلية الشاملة وصياغة الوثائق النهائية للمشروع.</div>
+</div></section>
+<section class="section" id="recommendations"><h2>7. التوصيات والتوجهات المستقبلية</h2>
+<p>بناءً على النتائج والمناقشات المقدمة في هذا البحث، يوصي التقرير بمجموعة من الخطوات الاستراتيجية لتطوير العمل وضمان استدامة النتائج المحققة:</p>
+<ul>
+<li><strong>التوسع في حجم البيانات:</strong> زيادة حجم عينات التدريب لضمان استقرار الخوارزميات في البيئات المعقدة.</li>
+<li><strong>تطوير الأمان الرقمي:</strong> الاعتماد على بروتوكولات حماية إضافية وتحديث التشفير بانتظام.</li>
+<li><strong>التكامل مع الأنظمة السحابية:</strong> تحويل البنية التحتية لتعتمد على التوسع السحابي المرن لتقليل التكاليف.</li>
+<li><strong>التدريب والتأهيل:</strong> إقامة دورات تدريبية للفرق التشغيلية لضمان الاستخدام الأنسب للنظام.</li>
+</ul></section>
+<section class="section" id="conclusion"><h2>8. الخاتمة</h2>
+<p>يقدم هذا البحث إطارًا متكاملًا للتحول نحو الأنظمة الذكية القائمة على تحليل البيانات المتقدم. وقد أوضحت النتائج الواردة في التقرير أن الاعتماد على الخوارزميات الحديثة يساهم في رفع جودة المخرجات وتقليل الأخطاء البشرية. ويأمل الباحث أن تكون هذه الدراسة حجر أساس لبحوث مستقبلية أعمق في هذا المجال المتطور.</p></section>
+<section class="section" id="references"><h2>9. المراجع</h2>
+<p>تمت إضافة المراجع العلمية والتقنية التالية لدعم الخلفية النظرية للبحث، وخاصة موضوعات الذكاء الاصطناعي والتشفير والحوسبة السحابية:</p>
+<ol>
+<li>Tabassi, E. (2023). <strong>Artificial Intelligence Risk Management Framework (AI RMF 1.0).</strong> National Institute of Standards and Technology (NIST), NIST AI 100-1. <a href="https://doi.org/10.6028/NIST.AI.100-1" target="_blank" rel="noopener noreferrer">https://doi.org/10.6028/NIST.AI.100-1</a></li>
+<li>Mell, P., &amp; Grance, T. (2011). <strong>The NIST Definition of Cloud Computing.</strong> National Institute of Standards and Technology, Special Publication 800-145. <a href="https://doi.org/10.6028/NIST.SP.800-145" target="_blank" rel="noopener noreferrer">https://doi.org/10.6028/NIST.SP.800-145</a></li>
+<li>National Institute of Standards and Technology. (2023). <strong>Advanced Encryption Standard (AES), FIPS 197.</strong> <a href="https://doi.org/10.6028/NIST.FIPS.197-upd1" target="_blank" rel="noopener noreferrer">https://doi.org/10.6028/NIST.FIPS.197-upd1</a></li>
+</ol>
+</section>
+<footer class="footer"><strong>Fady El Mahdy | 2501337</strong><small>تطبيقات الإنترنت والمنصات الإلكترونية — Task 2</small></footer>
+</main>
+</body>
+</html>
